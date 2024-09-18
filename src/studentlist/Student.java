@@ -3,6 +3,7 @@ package studentlist;
 /**
  *
  * @author paulbonenfant
+ * Wednesday September 18th
  */
 public class Student {
     
