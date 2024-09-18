@@ -5,8 +5,18 @@ package studentlist;
  * @author paulbonenfant
  */
 public class Student {
-
+    
+//    First github change
     private String name;
+    private int code;
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
 
     public Student(String name) {
         this.name = name;
