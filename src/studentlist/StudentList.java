@@ -29,5 +29,16 @@ public class StudentList {
         for (Student student: students) {
             System.out.printf(format, student.getName());            
         }        
+        
+//        // Create a regular Student
+//        Student student = new Student("Alice");
+//        student.setCode(101);
+//        System.out.println(student.getName() + " has code " + student.getCode());
+//
+//        // Create a PartTimeStudent
+//        PartTimeStudent partTimeStudent = new PartTimeStudent("Bob", 3);
+//        partTimeStudent.setCode(202);
+//        System.out.println(partTimeStudent.getName() + " has code " + partTimeStudent.getCode() 
+//                           + " and is taking " + partTimeStudent.getNumCourses() + " courses.");
     }
 }
